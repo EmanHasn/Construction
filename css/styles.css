@@ -124,7 +124,7 @@ footer{
 #preloader{
     width: 100%;
     height: 100vh;
-    background: #fff url("../images/loader.gif") no-repeat center center/20%;
+    background: #fff url("../images/loader.gif") no-repeat center center/30%;
     position: fixed;
     z-index: 999;
     transition: 1s all;
@@ -138,6 +138,7 @@ footer{
     border-radius: 4px;
     transition: .2s all;
     cursor: pointer;
+    z-index: 120;
 }
 .show{
     right: -100px !important;
